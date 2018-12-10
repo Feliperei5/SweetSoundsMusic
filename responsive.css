@@ -1,0 +1,106 @@
+html, body{
+	background-image: url(images/waalthree.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	background-attachment: fixed;
+}
+
+.bodytwo{
+	display: hidden;
+}
+
+.jumbotron {
+	background-color: transparent !important;
+	color: white;
+	text-align: center;
+}
+
+.containerhome {
+	margin-top: 125px;
+}
+
+footer{
+	text-align: center;
+}
+
+.login{
+	float: right;
+}
+
+.message{
+    height: 200px;
+    width: 500px;
+}
+
+.bod{
+  color: white;
+
+}
+
+body {
+  font: 14px/2 "Open sans",sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  background: transparent;
+  border: 1px solid #e1e1e1;
+  font: 12px/1.2 "Oswald", sans-serif;
+  letter-spacing: 0.4em;
+  text-align: center;
+  text-indent: 2px;
+  text-transform: uppercase;
+  transition: color 0.1s linear 0.05s;
+}
+.btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+  z-index: -1;
+  opacity: 0;
+  transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0.2s;
+}
+.btn::after {
+  transition: border 0.1s linear 0.05s;
+}
+.btn .btn-inner {
+  position: relative;
+  z-index: -1;
+}
+.btn:hover {
+  color: #373737;
+  transition: color 0.1s linear 0s;
+}
+.btn:hover::before {
+  top: 0;
+  height: 100%;
+  opacity: 1;
+  transition: height 0.6s ease, top 0.6s ease, opacity 0s linear 0s;
+}
+.btn:hover::after {
+  border-color: #373737;
+  transition: border 0.1s linear 0s z-index 2;
+}
+
+input {
+    border: 2px solid #888;
+    padding: 4px;
+    font-size: 1em;
+    background-color: #F8F8F8;
+}
+
+.hidden{
+  display: none;
+  height: 200px;
+}
+
